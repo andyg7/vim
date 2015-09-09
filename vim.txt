@@ -1,0 +1,19 @@
+set nocompatible
+set hidden
+set number
+set wrapmargin=5
+set ruler
+syntax on
+set incsearch
+set hlsearch
+set showmatch
+set ignorecase
+set smartcase
+set scrolloff=2
+nmap <F2> ggvG=
+set autoindent
+set smartindent
+imap <F3> for(int i = 0; i < ; i++) { <Esc>j%7hi
+imap { {<Enter>}<Esc>%o
+nmap ∆ :!javac Main.java<Enter>
+nmap µ :!make<Enter>
