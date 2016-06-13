@@ -35,6 +35,9 @@ NeoBundle 'scrooloose/nerdtree'
 " CtrlP. Used for finding files
 NeoBundle 'ctrlpvim/ctrlp.vim'
 
+" Easy motion
+NeoBundle 'easymotion/vim-easymotion'
+
 call neobundle#end()
 
 filetype plugin indent on
