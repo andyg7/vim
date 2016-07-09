@@ -47,3 +47,7 @@ NeoBundleCheck
 
 " Open NERDTree on startup
 autocmd vimenter * NERDTree
+" Set cursor on file on startup
+autocmd VimEnter * wincmd p
+" Exit vim if only NerdTree is the only open buffer
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
